@@ -113,7 +113,11 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
+                    <button className="btnFlotante bg-black text-white" onClick={hanldeBtnFlotante}>
+                        <i className="fa fa-arrow-up"></i>
+                    </button>
                 </nav>
+
             )}
         </>
     );

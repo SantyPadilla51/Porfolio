@@ -2,7 +2,7 @@
 const Main = () => {
     return (
         <>
-            <section className="font-bold m-3" id="Main">
+            <section className="font-bold m-3 lg:mt-72 lg:ms-8" id="Main">
                 <div className='console-container'>
                     <span id='text' className=" flex-wrap text-5xl text-wrap"></span>
                 </div>
