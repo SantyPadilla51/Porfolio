@@ -37,25 +37,3 @@ export function consoleText(words, id, colors) {
         }
     }, 120)
 }
-
-export function efectoSmooth() {
-    document.querySelectorAll('.scroll-link').forEach(link => {
-        link.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-
-            if (targetElement) {
-                // Obtén la altura de la barra de navegación fija
-                const navbarHeight = document.querySelector('.navbar').offsetHeight;
-                const offset = 800; // Ajusta este valor según la cantidad de espacio adicional que desees
-                const offsetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navbarHeight - offset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-}

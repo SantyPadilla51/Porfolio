@@ -18,7 +18,7 @@ const Main = () => {
                 </div>
                 <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded m-3">Descargar mi CV</button>
                 <div className="m-3">
-                    <ul className="text-white iconosRedes mt-6">
+                    <ul className="text-white iconosRedes mt-6 ">
                         <li>
                             <a href="https://www.linkedin.com/in/santiago-padilla-800173235/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
                         <li>

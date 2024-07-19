@@ -16,6 +16,21 @@ const Navbar = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
+    const handleEnlace = (e, targetId) => {
+        e.preventDefault();
+        const targetElement = document.getElementById(targetId);
+        console.log(targetElement);
+
+        if (targetElement) {
+            const offsetPosition = targetElement.offsetTop - 100; // Ajusta el valor según sea necesario
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
+
     useEffect(() => {
         window.addEventListener("resize", handleResize);
         return () => {
@@ -44,32 +59,32 @@ const Navbar = () => {
                         <div className="menuDesplegable menuAnimacion absolute">
                             <ul>
                                 <li>
-                                    <a href="#Main" className="uppercase font-light scroll-link">
+                                    <a href="#Main" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Main')}>
                                         Santiago Padilla
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#SobreMi" className="uppercase font-light scroll-link">
+                                    <a href="#SobreMi" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'SobreMi')}>
                                         Sobre mi
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#Porfolio" className="uppercase font-light scroll-link">
+                                    <a href="#Porfolio" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Porfolio')}>
                                         Portfolio
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#Educacion" className="uppercase font-light scroll-link">
+                                    <a href="#Educacion" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Educacion')}>
                                         Educacion
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#Skills" className="uppercase font-light scroll-link">
+                                    <a href="#Skills" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Skills')}>
                                         Skills
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#Contacto" className="uppercase font-light scroll-link">
+                                    <a href="#Contacto" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Contacto')}>
                                         Contacto
                                     </a>
                                 </li>
@@ -78,36 +93,36 @@ const Navbar = () => {
                     )}
                 </>
             ) : (
-                <nav className="sm:h-8">
+                <nav >
                     <div className="enlaces bg-black items-center text-center p-5">
                         <ul>
                             <li>
-                                <a href="#Main" className="uppercase font-light scroll-link">
+                                <a href="#Main" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Main')}>
                                     Santiago Padilla
                                 </a>
                             </li>
                             <li>
-                                <a href="#SobreMi" className="uppercase font-light scroll-link">
+                                <a href="#SobreMi" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'SobreMi')}>
                                     Sobre mi
                                 </a>
                             </li>
                             <li>
-                                <a href="#Porfolio" className="uppercase font-light scroll-link">
+                                <a href="#Porfolio" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Porfolio')}>
                                     Portfolio
                                 </a>
                             </li>
                             <li>
-                                <a href="#Educacion" className="uppercase font-light scroll-link">
+                                <a href="#Educacion" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Educacion')}>
                                     Educacion
                                 </a>
                             </li>
                             <li>
-                                <a href="#Skills" className="uppercase font-light scroll-link">
+                                <a href="#Skills" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Skills')}>
                                     Skills
                                 </a>
                             </li>
                             <li>
-                                <a href="#Contacto" className="uppercase font-light scroll-link">
+                                <a href="#Contacto" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Contacto')}>
                                     Contacto
                                 </a>
                             </li>

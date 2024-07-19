@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { consoleText, efectoSmooth } from "./index.js"
+import { consoleText } from "./index.js"
 import Navbar from "./Components/Navbar"
 import SobreMi from "./Components/SobreMi.jsx";
 import Main from "./Components/Main.jsx";
@@ -13,7 +13,6 @@ function App() {
 
   useEffect(() => {
     consoleText(['Santiago Padilla', 'Software Developer'], 'text', ['white', 'lightblue']);
-    efectoSmooth();
   }, [])
 
   return (
