@@ -7,7 +7,7 @@ const Portfolio = () => {
 
         <section>
           <div className="bg-black lg:w-1/4 p-2 text-white">
-            <img className="p-2" src="../../public/img/tienda-hardware.png" width="600" height="200" alt="Project 1" />
+            <img className="p-2" src="../.././public/img/tienda-hardware.png" width="600" height="200" alt="Project 1" />
             <div className="mt-2 p-2">
               <p className="bg-slate-800 p-2">Una pagina web enfocada en el diseño para una tienda de hadware online</p>
               <div className="mt-4">
