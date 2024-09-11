@@ -16,7 +16,7 @@ const Main = () => {
                         </span>
                     </h3>
                 </div>
-                <a href="../../public/CV-PadillaSantiago.pdf" download>
+                <a href="../img/CV-PadillaSantiago.pdf" download>
                     <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded m-3">Descargar mi CV</button>
                 </a>
 
