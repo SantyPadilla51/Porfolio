@@ -16,7 +16,10 @@ const Main = () => {
                         </span>
                     </h3>
                 </div>
-                <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded m-3">Descargar mi CV</button>
+                <a href="../../public/CV-PadillaSantiago.pdf" download>
+                    <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded m-3">Descargar mi CV</button>
+                </a>
+
                 <div className="m-3">
                     <ul className="text-white iconosRedes mt-6 ">
                         <li>

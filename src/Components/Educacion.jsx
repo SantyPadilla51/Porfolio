@@ -20,15 +20,11 @@ export const Educacion = () => {
                     </li>
                     <li className="mb-16">
                         <h2>Curso de JavasCript Moderno - Udemy</h2>
-                        <button className="text-black bg-white mt-2 p-3 hover:bg-gray-400">Ver Certificado</button>
+                        <img src="../../public/certificado-udemy-js.jpg" alt="" width="400" height="200" className="mt-4"/>
                     </li>
                     <li className="mb-10">
                         <h2>Desarrollo Web - CoderHouse</h2>
-                        <a href="../files/CertificadoCoderHouse.png" target="_blank" >
-                            <button className="text-black bg-white mt-2 p-3 hover:bg-gray-400">
-                                Ver Certificado
-                            </button>
-                        </a>
+                        <img src="../../public/Certificado-Coder-House.png" alt="" width="400" height="200" className="mt-4"/>
                     </li>
                 </ul>
             </div>
