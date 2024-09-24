@@ -3,7 +3,7 @@ export const Educacion = () => {
     return (
         <>
             <div id="Educacion" className="m-3">
-                <h1 className="text-white mt-72 uppercase text-5xl font-bold">Educacion</h1>
+                <h1 className="text-white mt-52 uppercase text-5xl font-bold">Educacion</h1>
 
                 <ul className="text-white mt-14">
                     <li className="mb-16">
