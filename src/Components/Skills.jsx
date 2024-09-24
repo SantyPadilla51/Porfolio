@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <>
       <div id="Skills" className="m-3" >
-        <h1 className="mt-96 text-cyan-700 text-5xl uppercase font-bold">Skills</h1>
+        <h1 className="mt-96 text-white text-5xl uppercase font-bold">Skills</h1>
         <div>
           <h3 className="text-white mt-16 uppercase text-2xl font-bold">Lenguajes de Programacion</h3>
           <ul className="text-white mt-3 flex flex-wrap gap-5">
@@ -12,6 +12,8 @@ const Skills = () => {
             <li className="flex items-center gap-2 bg-green-600 p-2 text-black"> <i className="fab fa-node-js icon text-2xl"></i> NodeJs</li>
             <li className="flex items-center gap-2 bg-orange-600 p-2 text-black"> <i className="fab fa-html5 icon text-2xl"></i> HTML</li>
             <li className="flex items-center gap-2 bg-blue-600 p-2 text-black"> <i className="fab fa-css3 icon text-2xl"></i> Css</li>
+            <li className="flex items-center gap-2 bg-blue-600 p-2 text-black"> <i className="fa fa-database icon text-2xl"></i> SQL</li>
+            <li className="flex items-center gap-2 bg-green-600 p-2 text-black"> <i className="fa fa-database icon text-2xl"></i> MongoDB</li>
           </ul>
         </div>
 

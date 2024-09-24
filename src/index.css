@@ -12,7 +12,6 @@ html {
 
 }
 
-
 .enlaces {
     display: flex;
     width: 15rem;
@@ -175,16 +174,19 @@ html {
 }
 
 
+
+.navbar {
+    z-index: 3;
+}
+
+/* -----------------ICONOS REDES Y ANIMACION --------------*/
+
 .iconosRedes {
     display: flex;
 }
 
 .iconosRedes li {
     list-style: none;
-}
-
-.navbar{
-    z-index: 3;
 }
 
 .iconosRedes li a {

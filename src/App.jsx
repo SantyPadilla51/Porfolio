@@ -24,8 +24,8 @@ function App() {
           <Main />
           <SobreMi />
           <Portfolio/>
-          <Educacion/>
           <Skills/>
+          <Educacion/>
           <Contacto/>
         </section>
       </section>

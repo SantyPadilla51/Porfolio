@@ -3,7 +3,7 @@ const Portfolio = () => {
   return (
     <>
       <div id="Porfolio" className="m-3">
-        <h1 className="mt-96 mb-20 uppercase text-cyan-700 font-bold text-5xl">Portfolio</h1>
+        <h1 className="mt-52 mb-20 uppercase text-white font-bold text-5xl">Portfolio</h1>
 
         <section>
           <div className="bg-black lg:w-1/4 p-2 text-white">

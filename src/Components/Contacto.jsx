@@ -2,8 +2,8 @@
 const Contacto = () => {
   return (
     <>
-      <div id="Contacto" className="m-3 mt-96 mb-32">
-        <h1 className="text-cyan-700 text-5xl uppercase font-bold">Contactame</h1>
+      <div id="Contacto" className="m-3 mt-72 mb-32">
+        <h1 className="text-white text-5xl uppercase font-bold">Contactame</h1>
         <ul className="text-white mt-8">
           <li className="block text-1xl bg-slate-900 p-2 lg:flex lg:gap-10 lg:w-1/2">
             <div className="flex items-center gap-2">

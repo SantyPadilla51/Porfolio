@@ -3,7 +3,7 @@ const Main = () => {
     return (
         <>
             <section className="font-bold m-3 lg:mt-72 lg:ms-8" id="Main">
-                <div className='console-container'>
+                <div className='console-container mt-52'>
                     <span id='text' className=" flex-wrap text-5xl text-wrap"></span>
                 </div>
                 <div className="mt-20 m-3">
@@ -16,8 +16,8 @@ const Main = () => {
                         </span>
                     </h3>
                 </div>
-                <a href="/img/CV-PadillaSantiago.pdf" download>
-                    <button className="text-black mt-8 mb-8 bg-white p-4 uppercase rounded m-3">Descargar mi CV</button>
+                <a href="#Porfolio">
+                    <button className="font-light text-black mt-8 mb-8 bg-white p-4 uppercase rounded m-3 hover:bg-slate-400">Ver Proyectos</button>
                 </a>
 
                 <div className="m-3">

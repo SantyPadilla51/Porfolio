@@ -41,7 +41,7 @@ const Navbar = () => {
 
     return (
         <>
-            {resolucion < 880 ? (
+            {resolucion < 1400 ? (
                 <>
                     <nav className="navbar fixed top-0 flex bg-black items-center justify-evenly w-full">
                         <h1 className="text-white p-5 font-semibold">Porfolio</h1>
@@ -112,13 +112,13 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="#Educacion" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Educacion')}>
-                                    Educacion
+                                <a href="#Skills" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Skills')}>
+                                    Skills
                                 </a>
                             </li>
                             <li>
-                                <a href="#Skills" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Skills')}>
-                                    Skills
+                                <a href="#Educacion" className="uppercase font-light" onClick={(e) => handleEnlace(e, 'Educacion')}>
+                                    Educacion
                                 </a>
                             </li>
                             <li>
